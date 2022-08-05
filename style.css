@@ -22,11 +22,40 @@
     list-style: none;
     text-decoration: none;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
 body{
     font-family: 'Montserrat', sans-serif;
+    background: var(--color-bg-3);
+    color: var(--color-light);
+    line-height: 1.7;
+}
+h1,h2{
+    line-height: 1.1;
+    font-weight: 400;
+}
+h1{
+    font-size: 4rem;
+    color: var(--color-white);
+}
+h2{
+    font-size: 3.5rem;
+}
+a{
+    color: var(--color-light);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--color-primary);
+}
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+}
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
 }
