@@ -59,3 +59,43 @@ img{
     object-fit: cover;
     width: 100%;
 }
+nav{
+    height: 5rem;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Only need on tablets and phones */
+.nav_toggle-btn{
+    display: none;
+}
+.nav_logo{
+    width: 7.5rem;
+}
+.nav_links{
+    display: flex;
+    gap: 4rem;
+}
+.nav_socials{
+    display: flex;
+    gap: 1rem;
+}
+.nav_socials a{
+    width: 2rem;
+    height: 2rem;
+    /* background: linear-gradient(var(--color-primary-variant), var(--color-primary));
+    border-radius: 0.5rem;
+    color: var(--color-bg-4);
+    display: grid;
+    place-items: center; */
+}
