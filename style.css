@@ -119,8 +119,8 @@ header{
 }
 .header_container{
     display: grid;
-    grid-template-columns: 42% 52%;
-    gap: 6%;
+    grid-template-columns: 43% 53%;
+    gap: 4%;
     margin-top: 10rem;
     position: relative;
 }
