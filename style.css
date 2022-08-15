@@ -180,3 +180,23 @@ header{
 .header_btn-md{
     display: none;
 }
+.header_frames{
+    position: absolute;
+    top: 88vh;
+    right: 44rem;
+    transition: var(--transition);
+}
+.header_frame{
+    width: 14rem;
+    border: 0.4rem solid var(--color-bg-3);
+    box-shadow: 0 0 4rem rgb(0, 0, 0, 0.5);
+    position: absolute;
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    transition: var(--transition);
+}
+.header_frame:nth-child(2){
+    transform: rotate(20deg);
+    top: -2rem;
+    left: 2rem;
+}
