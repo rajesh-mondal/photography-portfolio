@@ -172,3 +172,11 @@ header{
 .header_tag{
     color: var(--color-primary-variant);
 }
+.header_right p{
+    margin-top: 2rem;
+    width: 85%;
+}
+/* Only shows on tablets and phones */
+.header_btn-md{
+    display: none;
+}
