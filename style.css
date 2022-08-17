@@ -200,3 +200,10 @@ header{
     top: -2rem;
     left: 2rem;
 }
+.header_frames:hover .header_frame{
+    transform: rotate(0);
+}
+.header_frames:hover .header_frame:nth-child(2){
+    top: 0;
+    left: 15rem;
+}
